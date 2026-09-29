@@ -8,6 +8,13 @@
 
 ---
 
+## 🎬 Demonstração da Automação
+
+<!-- SOLTE OU ARRASTE O SEU GIF AQUI NESSA LINHA DE BAIXO -->
+
+
+---
+
 ## 💻 Sobre o Projeto
 
 Este projeto automatiza o fluxo completo de cadastro em um sistema web corporativo. A solução integra leitura de dados estruturados em CSV e simulação de comandos humanos de teclado e mouse, eliminando o preenchimento manual, reduzindo erros operacionais e otimizando o tempo de execução.
@@ -20,6 +27,8 @@ Este projeto automatiza o fluxo completo de cadastro em um sistema web corporati
 5. **Envio e Reset de Tela:** Submete o formulário e rola a página de volta ao topo para iniciar o próximo cadastro.
 
 ---
+<img width="800" height="447" alt="Gravando2026-09-29194017-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/5f27b573-84b4-473e-9914-03a4cb7f0a2a" />
+
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -32,20 +41,3 @@ Este projeto automatiza o fluxo completo de cadastro em um sistema web corporati
 
 ---
 
-## 🛑 Como Parar a Execução (Parada de Emergência)
-
-Como o script assume o controle do mouse e do teclado, utilize uma das opções abaixo caso precise interromper o código imediatamente:
-
-* **Pelo Mouse (Fail-Safe):** Puxe o mouse rapidamente com a mão até o **extremo canto superior esquerdo da tela** (coordenada `0, 0`). O PyAutoGUI possui essa trava de segurança de fábrica e encerra o script na mesma hora.
-* **Pelo Teclado:** Se estiver com a janela do VS Code / Terminal visível, pressione **`Ctrl + C`** para abortar o processo.
-
----
-
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-Ter o Python instalado na máquina.
-
-1. **Clone ou baixe este repositório:**
-   ```bash
-   git clone [https://github.com/VitoriaDC/automacao-cadastro-python.git](https://github.com/VitoriaDC/automacao-cadastro-python.git)
